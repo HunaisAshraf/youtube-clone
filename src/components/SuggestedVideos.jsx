@@ -1,5 +1,4 @@
 const SuggestedVideos = ({ info }) => {
-  console.log(info);
   return (
     <div className="flex gap-1 px-2 py-4">
       <img 

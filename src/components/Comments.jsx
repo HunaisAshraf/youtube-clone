@@ -12,11 +12,7 @@ const Comments = ({ id }) => {
     try {
       let data = await fetch(COMMENTS_API + id);
       let json = await data.json();
-      console.log(
-        json?.items[1].snippet?.topLevelComment?.snippet?.authorDisplayName
-      );
       setComments(json?.items);
-      console.log(comments);
     } catch (error) {
       console.log(error);
     }

@@ -16,9 +16,8 @@ const useVideos = () => {
   useEffect(() => {
     getVideos();
   }, []);
-  console.log(videos);
 
-  return videos
+  return videos;
 };
 
 export default useVideos;

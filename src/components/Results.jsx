@@ -18,7 +18,6 @@ const Results = () => {
     );
     setResults(results);
   };
-  console.log(results);
 
   useEffect(() => {
     getResults();
